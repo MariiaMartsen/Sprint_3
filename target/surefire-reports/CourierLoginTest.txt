@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: CourierLoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.971 s <<< FAILURE! - in CourierLoginTest
+CourierLoginTest.unSuccessLoginCourierWithLoginOnlyTest  Time elapsed: 60.363 s  <<< FAILURE!
+java.lang.AssertionError: 
+Courier can be login without password
+Expected: <400>
+     but: was <504>
+	at CourierLoginTest.unSuccessLoginCourierWithLoginOnlyTest(CourierLoginTest.java:49)
+
